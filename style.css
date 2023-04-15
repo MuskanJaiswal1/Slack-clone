@@ -1,0 +1,388 @@
+:root {
+    --purple-color: #541554;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+* {
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+ #logo{
+    /* border: 2px solid white; */
+    position: absolute;
+    height: 2rem;
+    width: 7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 1rem 3rem;
+    margin-left: 9rem;
+}
+.navbar::before{
+    content: "";
+    background-color: #541554;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar ul li{
+    /* border: 2px solid black; */
+    margin: 0.5rem 0.2rem;
+    font-weight: bold;
+}
+.navbar ul li a {
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.navbar ul li button {
+    padding: 0.5rem 0.5rem;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-color: #541554;
+    color: white;
+    cursor: pointer;
+}
+#space{
+    padding: 0.5rem 6.5rem ;
+}
+
+#search img{
+    height: 24px;
+}
+#free {
+    background-color: white;
+    color: #541554;
+}
+
+#home {
+    background-color: var(--purple-color);
+    color: white;
+    padding: 4.9rem 3.5rem;
+    height: 70vh;
+}
+
+#home h1 {
+    font-size: 3.9rem;
+}
+
+#home h1 span {
+    color: #ecb22e;
+}
+#home p{
+    font-size: 1.3rem;
+}
+#signUpEmail {
+    border: white;
+    padding: 1.3rem 2rem;
+    margin: 2rem 0rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: white;
+    color: var(--purple-color);
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#signUpGoogle{
+    border: 2px solid #409ffd;
+    background-color: #409ffd;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    margin: 0rem 0rem;
+    cursor: pointer;
+}
+#signUpGoogle img{
+    height: 28px;
+    position: relative;
+    top: 5.5px;
+    left: 0px;
+}
+#right{
+    float: right;
+    clear: both;
+    position: absolute;
+    top: 7rem;
+    right: 0.1rem;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+#comp{
+    background-color: #F4EDE4;
+}
+.companies{
+    text-align: center;
+    padding: 2rem;
+    font-weight: 550;
+}
+.companies img{
+    overflow: hidden;;
+}
+.container1::before{
+    content: "";
+    background-color: #F4EDE4;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.container1 .rightTeam{
+    width: 40%;
+    background-color: #F4EDE4;
+    font-size: 1.2rem;
+    float: right;
+    padding: 2rem 2rem;
+}
+.container1 h1{
+    font-size: 3rem;
+}
+.container1 a:hover {
+    text-decoration: underline;
+}
+.container2::before{
+    content: "";
+    position: absolute;
+    background-color: #F4EDE4;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.leftTeam #team{
+    padding: 0rem 2rem;
+    float: left ;
+    clear: both;
+    margin-left: 6rem;
+}
+ .leftWork{
+    width: 40%;
+    height: 15rem;
+    background-color: #F4EDE4;
+    font-size: 1.2rem;
+    float: left;
+    margin-left: 6rem;
+    padding: 2rem 2rem;
+    position: absolute;
+    top: 74rem;
+}
+.container2 h1{
+    font-size: 3rem;
+}
+.container2 a:hover {
+    text-decoration: underline;
+}
+.rightWork #work{
+    padding: 0rem 2rem;
+    position: relative;
+    float: right ;
+    clear: both;
+    margin-right: 6rem;;
+}
+.midHead{   
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.midP{
+    padding: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.meetEnterprise{
+    padding: 1.5rem 1.5rem;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: #541554;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin-left: 32rem;
+}
+.TalkSales{
+    padding: 1.5rem 1.5rem;
+    border: 2px solid var(--purple-color);
+    border-radius: 6px;
+    background-color: white;
+    font-weight: 700;
+    color: var(--purple-color);
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.mid button{
+     margin-top: 1rem;
+}
+.mid div h1{
+    color: var(--purple-color);
+    font-size: 4rem;
+}
+.mid p{
+    font-weight: 550;
+    font-size: small;
+}
+.one{
+    padding: 2rem;
+    position: absolute;
+    left: 18rem;
+}
+.two{
+    padding: 2rem;
+    position: absolute;
+    left: 38rem;
+}
+.three{
+    margin-left: 2rem;
+    padding: 2rem;
+    position: absolute;
+    left: 58rem;
+}
+.cards::before, .mid::before{
+    content: "";
+    position: absolute;
+    background-color: #F4EDE4;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#way2card{
+    text-align: center;
+    position: absolute;
+    top: 121rem;
+    left: 30rem;
+    font-size: 2rem;
+}
+
+.divCard1{
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 128rem;
+    margin-left: 6rem;
+    padding: 1rem;
+}
+.divCard1 h4{
+    opacity: 0.6;
+}
+.divCard1 button{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 1rem; 
+    margin-top: 2rem; 
+}
+.divCard2{
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 128rem;
+    margin-left: 28rem;
+    padding: 1rem;
+}
+.divCard2 h4{
+    opacity: 0.6;
+}
+.divCard2 button{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 1rem; 
+    margin-top: 2rem; 
+}
+.divCard3{
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 128rem;
+    margin-left: 50rem;
+    padding: 1rem;
+}
+.divCard3 h4{
+    opacity: 0.6;
+}
+.divCard3 button{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 1rem; 
+    margin-top: 2rem; 
+}
+.divCard4{
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 128rem;
+    margin-left: 72rem;
+    padding: 1rem;
+}
+.divCard4 h4{
+    opacity: 0.6;
+}
+.divCard4 button{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 1rem; 
+    margin-top: 2rem; 
+}
+.foot{
+    position: absolute;
+    top: 155rem;
+    width:100%;
+}
+.bottomF{
+     font-size: 1.5rem;
+     color: white;
+     margin-top: 3.5rem;
+}
+.foot button{
+    padding: 1rem 1rem;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-color: #541554;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+#TryFree{
+    color:var(--purple-color);
+    background-color: white;
+}
+.divlast{
+    height: 500px;
+    list-style-type: none;
+    position: relative;
+    top: 120px;
+    display: flex;
+}
+.divlast ul{
+    list-style: none;
+    padding: 6rem;
+}
+.social{
+    display: flex;
+    list-style: none;
+    padding: 2rem 0rem;
+}
+.social li{
+    padding: 0rem 3rem;
+}
+@media screen and (max-width: 600px){
+    .nav_mid{
+       position: relative;
+       top:35px;
+       right: 155px; 
+    }
